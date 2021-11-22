@@ -1,0 +1,95 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Poppins", sans-serif;
+
+  background: linear-gradient(-45deg, #23a6d5, #237fd5);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+  height: 100vh;
+  color: white;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+a:link {
+  text-decoration: none;
+  color: white;
+}
+
+a:visited {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  color: whitesmoke;
+  font-weight: 500;
+}
+
+a:active {
+  text-decoration: none;
+  color: white;
+}
+
+header {
+  display: flex;
+  height: 20vh;
+  width: 70%;
+  margin: auto;
+  align-items: center;
+  font-size: 1.1em;
+}
+
+.logo {
+  margin: 9px;
+}
+.logo-container,
+.nav-links {
+  display: flex;
+}
+
+.logo-container {
+  flex: 1;
+}
+
+nav {
+  flex: 2;
+}
+.nav-links {
+  justify-content: space-around;
+  list-style: none;
+  text-decoration: none;
+  font-size: 1.1em;
+}
+
+.presentation {
+  display: flex;
+  width: 80%;
+  margin: auto;
+  min-height: 80vh;
+  align-items: center;
+}
+
+.welcomemsg {
+  flex: 1;
+  text-align: center;
+}
+
+.cover {
+  flex: 1;
+  
+}
